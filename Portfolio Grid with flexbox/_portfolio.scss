@@ -1,0 +1,33 @@
+.portfolio {
+  display: flex;
+  position: relative;
+  align-items: center;
+  &__frame {
+    background-color: #393d44;
+    border-radius: 5%;
+    justify-content: space-around;
+    margin: 1%;
+    text-align: center;
+  } 
+  &__frame__image {
+    position: relative;
+    border-radius: 5%;
+    opacity: 1;
+    transition: .5s ease;
+  } 
+  &__frame__onhover {
+    transition: .5s ease;
+    opacity: 0;
+  }
+  &__frame__button {
+    opacity: 0;
+    transition: opacity .35s ease;
+  }
+  &__frame__button a {
+  text-align: center;
+  color: white;
+  border: solid 2px white;
+  font-family:Tahoma, sans-serif;
+  font-size:20px;
+  }
+}

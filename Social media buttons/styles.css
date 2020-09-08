@@ -1,0 +1,114 @@
+body { 
+  font-family:Arial;
+  font-size:16px;
+  margin: 0px;
+  padding: 0px;
+}
+
+.container {
+  height: 98vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 20px auto 50px 50px 50px 50px 50px 100px;
+  grid-template-areas: 
+      "l l l l r"
+      "l l l l r"
+      "l l l l r"
+      "l l l l r"
+      "l l l l r"
+      "l l l l r"
+      "l l l l r"
+      "l l l l o";
+}
+
+.content--left {
+  grid-area: l;
+  background-color: rgb(211, 211, 211);
+}
+
+.content--right {
+  grid-area: r;
+  background-color: rgb(223, 223, 223);
+}
+
+.content--o {
+  grid-area: o;
+  background-color: rgb(248, 221, 221);
+  }      
+         
+.social-media a  {
+  position: absolute;
+  padding:15px;
+  text-decoration: none;
+  color: white;
+  }          
+
+.social-media__blog {
+  position: absolute;
+  bottom: 250px;
+  right: -200px;
+  width: 250px;
+  height: 50px;
+  background: #e17b77;
+  transition: transform ease-in-out 1s;
+  }
+  
+.social-media__blog:hover {
+  transform: translate(-180px, 0px);
+  }
+  
+.social-media__twitter {
+  position: absolute;
+  bottom: 200px;
+  right: -200px;
+  width: 250px;
+  height: 50px;
+  background: #00aced;
+  transition: transform ease-in-out 1s;
+  }
+
+.social-media__twitter:hover {
+  transform: translate(-180px, 0px);
+    }
+
+.social-media__linkedin {
+  position: absolute;
+  bottom: 150px;
+  right: -200px;
+  width: 250px;
+  height: 50px;
+  background: #007bb6;
+  transition: transform ease-in-out 1s;
+  }
+
+.social-media__linkedin:hover {
+  transform: translate(-180px, 0px);
+  }
+
+.social-media__facebook {
+  position: absolute;
+  bottom: 100px;
+  right: -200px;
+  width: 250px;
+  height: 50px;
+  background: #3b5998;
+  transition: transform ease-in-out 1s;
+  }
+
+.social-media__facebook:hover {
+  transform: translate(-180px, 0px);
+  }
+
+.social-media__github {
+  position: absolute;
+  bottom: 50px;
+    right: -200px;
+    width: 250px;
+    height: 50px;
+    background: #333;
+    transition: transform ease-in-out 1s;
+  }
+
+.social-media__github:hover {
+    transform: translate(-180px, 0px);
+    }
