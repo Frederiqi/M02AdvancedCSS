@@ -8,7 +8,7 @@
           align-items: center;
 }
 
-.portfolio__frame {
+.portfolio--frame {
   background-color: #393d44;
   border-radius: 5%;
   -ms-flex-pack: distribute;
@@ -17,7 +17,7 @@
   text-align: center;
 }
 
-.portfolio__frame__image {
+.portfolio--frame__image {
   position: relative;
   border-radius: 5%;
   opacity: 1;
@@ -25,19 +25,19 @@
   transition: .5s ease;
 }
 
-.portfolio__frame__onhover {
+.portfolio--frame__onhover {
   -webkit-transition: .5s ease;
   transition: .5s ease;
   opacity: 0;
 }
 
-.portfolio__frame__button {
+.portfolio--frame__button {
   opacity: 0;
   -webkit-transition: opacity .35s ease;
   transition: opacity .35s ease;
 }
 
-.portfolio__frame__button a {
+.portfolio--frame__button a {
   text-align: center;
   color: white;
   border: solid 2px white;
@@ -76,15 +76,15 @@ body {
       justify-content: space-around;
 }
 
-.portfolio:hover .portfolio__frame__image {
+.portfolio:hover .portfolio--frame__image {
   opacity: 0;
 }
 
-.portfolio:hover .portfolio__frame__onhover {
+.portfolio:hover .portfolio--frame__onhover {
   opacity: 1;
 }
 
-.container:hover .portfolio__frame__button {
+.container:hover .portfolio--frame__button {
   opacity: 1;
 }
 
@@ -94,14 +94,14 @@ body {
         -ms-flex: 0 100%;
             flex: 0 100%;
   }
-  .portfolio__frame {
+  .portfolio--frame {
     width: 500px;
     height: 500px;
   }
-  .portfolio__frame__image {
+  .portfolio--frame__image {
     width: 500px;
   }
-  .portfolio__frame__button a {
+  .portfolio--frame__button a {
     position: absolute;
     top: 250px;
     left: 150px;
@@ -116,14 +116,14 @@ body {
         -ms-flex: 0 50%;
             flex: 0 50%;
   }
-  .portfolio__frame {
+  .portfolio--frame {
     width: 400px;
     height: 400px;
   }
-  .portfolio__frame__image {
+  .portfolio--frame__image {
     width: 400px;
   }
-  .portfolio__frame__button a {
+  .portfolio--frame__button a {
     position: absolute;
     top: 200px;
     left: 100px;
@@ -138,14 +138,14 @@ body {
         -ms-flex: 0 32%;
             flex: 0 32%;
   }
-  .portfolio__frame {
+  .portfolio--frame {
     width: 300px;
     height: 300px;
   }
-  .portfolio__frame__image {
+  .portfolio--frame__image {
     width: 300px;
   }
-  .portfolio__frame__button a {
+  .portfolio--frame__button a {
     position: absolute;
     top: 150px;
     left: 50px;
